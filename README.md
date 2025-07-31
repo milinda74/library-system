@@ -16,7 +16,7 @@ Database Implementation
         Supports complex relationships (borrowers/books) <br>
         Environment configurable (dev/prod) <br>
     Configuration:<br>
-# application-dev.properties
+# application-dev.properties <br>
 spring.datasource.url=jdbc:h2:mem:librarydb <br>
 spring.jpa.hibernate.ddl-auto=update <br>
 
