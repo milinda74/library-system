@@ -35,21 +35,14 @@ Testing:<br>
     Integration tests for controllers (SpringBootTest)<br>
 <img width="1338" height="715" alt="Screenshot 2025-07-31 064111" src="https://github.com/user-attachments/assets/c78f0938-9a55-4015-85f1-1ee5efc19479" />
 <br>
-This test suite provides:
-
-    80-90% code coverage
-
-    Validation of all business rules
-
-    API contract verification
-
-    Database interaction testing
-
-    Error handling verification
-
-    Performance under concurrent access (in integration tests)
-
-The tests ensure the system meets all requirements specified in the task while maintaining robustness and reliability.
+This test suite provides:<br>
+    1. 80-90% code coverage<br>
+    2. Validation of all business rules<br>
+    3. API contract verification<br>
+    4. Database interaction testing<br>
+    5. Error handling verification<br>
+    6. Performance under concurrent access (in integration tests)<br>
+The tests ensure the system meets all requirements specified in the task while maintaining robustness and reliability.<br>
 
 
 
