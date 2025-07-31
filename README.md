@@ -25,7 +25,8 @@ spring.datasource.url=jdbc:postgresql://prod-db/library <br>
 spring.datasource.username=${DB_USER} <br>
 spring.datasource.password=${DB_PASS} <br>
 
-![7606c01](https://github.com/user-attachments/assets/f2989bcd-5d15-472b-8626-2b3f1e0437c9)
+<img width="1348" height="636" alt="Screenshot 2025-07-31 063226" src="https://github.com/user-attachments/assets/598e1f90-6d0e-4026-96d8-24f7e42693b8" />
+
 
 
 
