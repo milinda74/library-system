@@ -1,5 +1,6 @@
 REST Endpoints
-Method	Endpoint	              Description
+Method	-Endpoint	              -Description
+======================================================
 POST	  /api/borrowers	        Register new borrower
 POST	  /api/books	            Register new book
 GET	    /api/books	            Get all books
