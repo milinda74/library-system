@@ -1,11 +1,16 @@
-REST Endpoints
-Method	    -Endpoint	              -Description
-======================================================
-POST	     /api/borrowers	        -Register new borrower <br>
-POST	     /api/books	            -Register new book <br>
-GET	       /api/books	            -Get all books <br>
-POST	     /api/borrow	          -Borrow a book <br> 
-POST	     /api/return	          -Return a book <br>
+REST Endpoints:<br>
+Borrower Endpoints:<br>
+POST   /api/borrowers      - Register borrower (201 Created)<br>
+GET    /api/borrowers/{id} - Get borrower by ID (200 OK)<br>
+GET    /api/borrowers      - Get all borrowers (200 OK)<br>
+PUT    /api/borrowers/{id} - Update borrower (200 OK)<br>
+DELETE /api/borrowers/{id} - Delete borrower (204 No Content)<br><br>
+Book Endpoints:<br>
+POST /api/books - Register book (201 Created)<br>
+GET  /api/books - Get all books (200 OK)<br><br>
+Borrow/Return Endpoints:<br>
+POST /api/borrow      - Borrow book (201 Created)<br>
+POST /api/borrow/return - Return book (200 OK)<br><br>
 
 <br>
 
@@ -16,14 +21,13 @@ Database Implementation
         Supports complex relationships (borrowers/books) <br>
         Environment configurable (dev/prod) <br>
     Configuration:<br>
-# application-dev.properties <br>
-spring.datasource.url=jdbc:h2:mem:librarydb <br>
-spring.jpa.hibernate.ddl-auto=update <br>
-
-# application-prod.properties <br>
-spring.datasource.url=jdbc:postgresql://prod-db/library <br>
-spring.datasource.username=${DB_USER} <br>
-spring.datasource.password=${DB_PASS} <br><br><br>
+        # application-dev.properties <br>
+        spring.datasource.url=jdbc:h2:mem:librarydb <br>
+        spring.jpa.hibernate.ddl-auto=update <br>
+        # application-prod.properties <br>
+        spring.datasource.url=jdbc:postgresql://prod-db/library <br>
+        spring.datasource.username=${DB_USER} <br>
+        spring.datasource.password=${DB_PASS} <br><br><br>
 
 Documentation for how to use the API:<br><br>
 <img width="1348" height="636" alt="Screenshot 2025-07-31 063226" src="https://github.com/user-attachments/assets/598e1f90-6d0e-4026-96d8-24f7e42693b8" />
