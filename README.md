@@ -34,13 +34,13 @@ Testing:<br>
 <img width="1338" height="715" alt="Screenshot 2025-07-31 064111" src="https://github.com/user-attachments/assets/c78f0938-9a55-4015-85f1-1ee5efc19479" />
 <br><br>
 Key Assumptions:<br>
-    Borrower email must be unique<br>
-    ISBN format validation not implemented (assume valid input)<br>
-    No authentication/authorization (per task requirements)<br>
-    Automatic book availability status based on borrow records<br>
-    Soft deletion not implemented<br>
-    Pagination not implemented for book listings<br>
-    Timezone handling uses server default<br>
+    1. Borrower email must be unique<br>
+    2. ISBN format validation not implemented (assume valid input)<br>
+    3. No authentication/authorization (per task requirements)<br>
+    4. Automatic book availability status based on borrow records<br>
+    5. Soft deletion not implemented<br>
+    6. Pagination not implemented for book listings<br>
+    7. Timezone handling uses server default<br>
 
 
 
