@@ -28,7 +28,10 @@ Database Implementation
         spring.datasource.password=${DB_PASS} <br>
 
 Documentation for how to use the API:<br>
-<img width="1348" height="636" alt="Screenshot 2025-07-31 063226" src="https://github.com/user-attachments/assets/598e1f90-6d0e-4026-96d8-24f7e42693b8" />
+<img width="1351" height="678" alt="Screenshot 2025-07-31 121750" src="https://github.com/user-attachments/assets/74e26dd3-1246-4609-8917-d2bb0ba7eb88" />
+
+<img width="1353" height="671" alt="Screenshot 2025-07-31 122157" src="https://github.com/user-attachments/assets/142d5200-cc5f-4bf2-a935-f39b73e8a98a" />
+
 
 Testing:<br>
     Unit tests for services (JUnit 5 + Mockito)<br>
